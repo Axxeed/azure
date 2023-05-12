@@ -18,7 +18,7 @@ def predict_species(iris: IrisSpecies):
     )
     return {
         'prediction': prediction,
-        'probability': probability
+        'probabilit': probability
     }
 
 # # 4. Run the API with uvicorn
